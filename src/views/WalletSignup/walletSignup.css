@@ -235,6 +235,7 @@ header {
     color: #BABABA;
 }
 
+
 .arbor-form-box2 form select {
     -webkit-appearance: none;
     padding-right: 40px;
@@ -243,6 +244,9 @@ header {
 
 .arbor-form-box2 form .select-wrap {
     position: relative;
+}
+.selected{
+    color: #000 !important;
 }
 
 .arbor-form-box2 form .select-wrap::after {

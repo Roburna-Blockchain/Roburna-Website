@@ -119,7 +119,7 @@ header .navbar-nav {
     font-size: 96px;
     text-align: center;
     text-transform: uppercase;
-    background: linear-gradient(180deg, #E6E6E6 -19.1%, #FCFCFC 61.63%), #fff;
+    background: linear-gradient(180deg, #f9f9f9 0%, #838383 100%), #838383;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -262,7 +262,7 @@ footer p {
 
 .faq-sec .special-heading {
     font-size: 180px;
-    margin-bottom: -70px;
+    margin-bottom: 0px;
 }
 
 .whitepaper-faq-wrap {
@@ -322,6 +322,8 @@ footer p {
     line-height: 30px;
     font-size: 18px;
     font-weight: 400;
+    /* make text stay inside (send to next line) */
+    overflow-wrap: break-word;
 }
 
 .expand-desc a {
@@ -411,7 +413,7 @@ footer p {
 }
 
 .blockchain .info-card .--btn-1 {
-    display: none;
+    /* display: none; */
 }
 
 .infoplant2 {
@@ -468,7 +470,7 @@ footer p {
 
 .blogs-images {
     height: 330px;
-    object-fit: cover;
+    object-fit: fill;
     border-radius: 10px;
 }
 
@@ -665,7 +667,7 @@ footer p {
 
     .faq-sec .special-heading {
         font-size: 100px;
-        margin-bottom: -30px;
+        margin-bottom: 0px;
     }
 
     .blockchain .contact-banner {
@@ -925,7 +927,7 @@ footer p {
         
         text-align: center;
         text-transform: uppercase;
-        background: linear-gradient(0deg, #E6E6E6 -19.1%, #FCFCFC 61.63%), #fff;
+        background: linear-gradient(180deg, #f9f9f9 0%, #838383 100%), #838383;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -1544,7 +1546,11 @@ footer p {
     .blogpost-main-sec {
         font-size: 14px;
     }
-
+    .blogpost-main-sec img{
+        /* important */
+        max-width: 100% !important;
+        height: auto !important;
+    }
     .blog-banner .blogpost-scroll {
         width: 22px;
         margin-bottom: -50px;

@@ -51,7 +51,7 @@ export function Updates() {
                     <h1 className="special-heading blog-heading">UPDATES</h1>
                     <div className="row m-0 custom-row-blogs">
                         <div className="col-lg-6 px-0 align-self-center latesupdatecols">
-                            <div className="latest-blog-content latest-update-content px-5 h-100">
+                            <div className="latest-blog-content latest-update-content px-5 ">
                                 <div className="tag-time">{formatDateTime(updates[0].created_at)}</div>
                                 <h2 className='px-lg-5 mt-5 mb-5'>{updates[0].title}</h2>
                                 <p className="mb-5 px-lg-5">
@@ -63,7 +63,8 @@ export function Updates() {
                         </div>
                         <div className="col-lg-6 p-lg-0 latest-updates-image-wrap latesupdatecols">
                             <div className="right-side-update-image">
-                            <img src={updates[0].image} alt="latest-blog" className="latest-blog-image"/>
+                                
+                            <img src={updates[0].image} alt="latest-blog" className="latest-blog-image updates-latest-blog-image"/>
                             </div>
                         </div>
                     </div>

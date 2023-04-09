@@ -64,7 +64,7 @@ export function Blogpost() {
             <div className='p-md-0 mt-md-5 mt-3 p-4 text-center'><a href='#blogdesc' className='blogpost-scroll'><img src={chev} /></a></div>
             {blog && (<>
                 <section id='blogdesc' className='blogpost-main-sec d-flex flex-column'>
-                    <div dangerouslySetInnerHTML={{ __html: blog.description }} />
+                    <div className='blog-description' dangerouslySetInnerHTML={{ __html: blog.description }} />
                 </section>
             </>)}
 

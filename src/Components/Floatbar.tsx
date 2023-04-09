@@ -34,11 +34,8 @@ export function Floatbar() {
                     </button>
                     <Collapse in={open} dimension="height">
                         <div id='floatbar' className={`floatbar-inner `}>
-                            < a target="_blank" href='https://github.com/RoburnOfficial' rel="noreferrer"><img src={git} height='28px' /></a>
                             <a target="_blank" href='https://t.me/Roburna' rel="noreferrer"><img src={telegram} height='28px' /></a>
                             <a target="_blank" href='https://discord.com/invite/d8qVn3ca2q' rel="noreferrer"><img src={discord} height='28px' /></a>
-                            <a target="_blank" href='https://medium.com/@roburnaofficial' rel="noreferrer"><img src={m} height='28px' /></a>
-                            <a target="_blank" href='https://www.instagram.com/roburnaofficial/' rel="noreferrer"><img src={instagram} height='28px' /></a>
                             <a target="_blank" href='https://www.youtube.com/channel/UCO5Fn9KbNmWoB0hQC3xj2iQ' rel="noreferrer"><img src={youtube} height='28px' /></a>
                             <a target="_blank" href='https://twitter.com/roburnaofficial' rel="noreferrer"><img src={twitter} height='28px' /></a>
                             <a target="_blank" href='https://www.linkedin.com/company/roburna-official/about/' rel="noreferrer"><img src={linkedin} height='28px' /></a>
@@ -57,11 +54,8 @@ export function Floatbar() {
                     </button>
             <Collapse in={open} dimension="height">
                         <div id='floatbar' className={`floatbar-inner `}>
-                            < a target="_blank" href='https://github.com/RoburnOfficial' rel="noreferrer"><img src={git} height='28px' /></a>
                             <a target="_blank" href='https://t.me/Roburna' rel="noreferrer"><img src={telegram} height='28px' /></a>
                             <a target="_blank" href='https://discord.com/invite/d8qVn3ca2q' rel="noreferrer"><img src={discord} height='28px' /></a>
-                            <a target="_blank" href='https://medium.com/@roburnaofficial' rel="noreferrer"><img src={m} height='28px' /></a>
-                            <a target="_blank" href='https://www.instagram.com/roburnaofficial/' rel="noreferrer"><img src={instagram} height='28px' /></a>
                             <a target="_blank" href='https://www.youtube.com/channel/UCO5Fn9KbNmWoB0hQC3xj2iQ' rel="noreferrer"><img src={youtube} height='28px' /></a>
                             <a target="_blank" href='https://twitter.com/roburnaofficial' rel="noreferrer"><img src={twitter} height='28px' /></a>
                             <a target="_blank" href='https://www.linkedin.com/company/roburna-official/about/' rel="noreferrer"><img src={linkedin} height='28px' /></a>

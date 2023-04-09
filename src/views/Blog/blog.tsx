@@ -11,7 +11,6 @@ import { Blog, formatDateTime, LayerOne, LayerTwo } from './layerBox'
 import Loader from 'Components/Loader'
 
 export function Blogs() {
-
     const [blogs, setBlogs] = useState<Blog[]>([])
     const [cotegoriesList, setCotegories] = useState<any[]>([])
     const [selectCategory, setCatetory] = useState('all')

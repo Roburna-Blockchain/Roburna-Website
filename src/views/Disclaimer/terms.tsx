@@ -26,7 +26,7 @@ export function Terms() {
                 <div className='banner-text-box text-center d-flex flex-column align-items-center justify-content-center'>
                     <h2 className='px-5'>TERMS AND CONDITIONS OF USE</h2>
                     <div className='alt-box'>
-                        <span>WHITEPAPER</span>
+                        {/* <span>WHITEPAPER</span> */}
                         <img src={grleaf} width='67px' />
                     </div>
                     <p>Our terms & conditions were last updated on 16.08.2022.</p>

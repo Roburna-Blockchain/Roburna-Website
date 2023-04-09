@@ -27,7 +27,7 @@ export function Disclaimer() {
                 <div className='banner-text-box text-center d-flex flex-column align-items-center justify-content-center'>
                     <h2 className='px-5'>DISCLAIMER</h2>
                     <div className='alt-box'>
-                        <span>WHITEPAPER</span>
+                        {/* <span>WHITEPAPER</span> */}
                         <img src={grleaf} width='67px' />
                     </div>
                     <p>Our disclaimer was last updated on 16.08.2022.
@@ -70,7 +70,7 @@ export function Disclaimer() {
                 </p>
                 <hr />
                 <h4>E-MAIL</h4>
-                <p>You may choose to communicate with us via e-mail to <a href='mailto:info@roburna.com' className='gradient-color'>info@roburna.com</a>. However, in case you do so, you should note that the security of e-mail is unreliable. By sending confidential or sensitive e-mail messages which are unencrypted you accept the risks of such uncertainty and possible breach of confidentiality or privacy over the internet.</p>
+                <p>You may choose to communicate with us via e-mail to <a href='mailto:info@roburna.com' className='gradient-color'>info@roburna.com</a>However, in case you do so, you should note that the security of e-mail is unreliable. By sending confidential or sensitive e-mail messages which are unencrypted you accept the risks of such uncertainty and possible breach of confidentiality or privacy over the internet.</p>
                 <hr />
                 <h4>NO WARRANTY</h4>
                 <p>The information contained in this website and newsletters is provided by Roburna as a service/promotion to its users, subscribers, customers, and possibly others. It does not contain (legal) advice. Although we try to provide quality information, we do not guarantee results obtained from the use of this information, and without warranty of any kind, express or implied, including, but not limited to warranties of performance for a particular purpose.</p>

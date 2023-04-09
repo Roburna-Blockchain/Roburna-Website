@@ -33,6 +33,7 @@ export const LayerOne: React.FC<Iblog> = ({ blog }) => {
         <div className='col-lg-6 col-12 mb-5'>
             <div className='home-blog-card'>
                 <img src={blog.image} />
+
                 <div className='blog-card-bottom'>
                     <span>{blog.tag} | {formatDateTime(blog.created_at)}</span>
                     <h4>{blog.title}</h4>

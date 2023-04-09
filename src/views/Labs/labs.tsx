@@ -23,7 +23,7 @@ export function Labs() {
         <div className="blockchain">
             <Helmet>
                 <title>Roburna - Labs</title>
-                <meta name='description' content='Roburna Labs is the development arm of the Roburna ecosystem, on a mission to open up the Web3 horizon to a wide range of corporate and industrial sectors, including energy management, healthcare, agriculture and natural resources, retail, e-commerce, gaming, industrial production, and many others.' />
+                <meta name='description' content='RBA LABS is the development arm of the Roburna ecosystem, on a mission to open up the Web3 horizon to a wide range of corporate and industrial sectors, including energy management, healthcare, agriculture and natural resources, retail, e-commerce, gaming, industrial production, and many others.' />
                 <meta property="og:image" content="https://roburna.com/static/media/banner.cfea34887d06d9f79b5d.png" />
             </Helmet>
             <div className='blockchain-tophalf labs-page'>

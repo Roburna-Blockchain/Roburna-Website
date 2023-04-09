@@ -77,8 +77,8 @@ export function Home() {
           <div className='col-md-6 col-12 p-0 margin-bottom-custom mobile-border-radius'>
             <div className='info-card d-flex flex-column justify-content-center align-items-center text-center'>
               <img className='info-leaf' src={yellowLeaf} alt={yellowLeaf} width='46px' />
-              <img className='info-image' src={labs} alt={labs} />
-              <p>Roburna Labs is the development arm of the Roburna ecosystem, on a mission to open up
+              <img className='info-image' src={labs} alt={labs} width={100}/>
+              <p >RBA LABS is the development arm of the Roburna ecosystem, on a mission to open up
                 the Web3 horizon to a wide range of corporate and industrial sectors, including energy
                 management, healthcare, agriculture and natural resources, retail, e-commerce, gaming,
                 industrial production, and many others.</p>
@@ -87,11 +87,11 @@ export function Home() {
           <div className='col-md-6 col-12 p-0 margin-bottom-custom mobile-border-radius'>
             <div className='info-card card2 d-flex flex-column justify-content-center align-items-center text-center'>
               <img className='info-leaf' src={yellowLeaf} alt={yellowLeaf} width='46px' />
-              <img className='info-image' src={blockchain} alt={blockchain} />
-              <p>Roburna Blockchain uses frictionless earning and elastic validation to introduce the
+              <img className='info-image' src={blockchain} alt={blockchain} width={100} />
+              <p >Roburna Blockchain uses frictionless earning and elastic validation to introduce the
                 Proof-of-Earn (PoE) and Delegated-Proof-of-Earn (DPoE) consensus mechanisms. Everyone
                 holding RBA will earn dividends on blockchain transactions and stands a fair chance of</p>
-              <NavLink to='/blockchain' className='--btn-1'>READ MORE</NavLink>
+              <NavLink to='/blockchain' className='--btn-1 '>READ MORE</NavLink>
             </div>
           </div>
         </div>

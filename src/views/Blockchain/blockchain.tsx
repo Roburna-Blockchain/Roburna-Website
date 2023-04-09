@@ -81,7 +81,7 @@ export function Blockchain() {
                                             sub-chains by using malicious actions such as double-spending.<br/><br/>
                                             The more validators and long-term holders there are, the stronger our system
                                             becomes.</p>
-                                        <button className='--btn-1'>Learn More</button>
+                                        <NavLink to='/learnmore' className='--btn-1 '>Learn More</NavLink>
                                     </div>
                                 </div>
 
@@ -92,7 +92,7 @@ export function Blockchain() {
                             <div className='info-card card2'>
                                 <div className='row'>
                                     <div
-                                        className='col-lg-8 col-12  d-flex flex-column justify-content-center align-items-center text-center gap-30'>
+                                        className='col-lg-8 col-12  d-flex flex-column justify-content-center align-items-center text-center gap-30 relative'>
                                         <span>ROBURNA BLOCKCHAIN</span>
                                         <h2>Blockchain<br/>
                                             as a Service</h2>
@@ -107,7 +107,7 @@ export function Blockchain() {
                                             technology.<br/><br/>
                                             All you need is an idea. Get creative with your processes, we do the
                                             heavy-lifting!</p>
-                                        <button className='--btn-1'>Learn More</button>
+                                            <NavLink to='/learnmore' className='--btn-1 '>Learn More</NavLink>
                                         <img className='infoplant2' src={infoplant}/>
                                     </div>
                                     <div className='col-lg-4 mobile-none'></div>
@@ -132,7 +132,7 @@ export function Blockchain() {
                                     <h2>Q4 2022</h2>
                                     <p>ArborSwap: release of beta version 1
                                         <br/> Opening of staking platform
-                                        <br/>Roburna Labs: release of multi-game launcher
+                                        <br/>RBA LABS: release of multi-game launcher
 
                                     </p>
                                     <h5 className='gradient-color'>IN PROGRESS</h5>
@@ -149,7 +149,7 @@ export function Blockchain() {
                                         <br/>
                                         Fight4Hope: upgrade of NFT logic
                                         <br/>Roburna Wallet: release of beta version to selected Roburna holders
-                                        <br/>Roburna Labs: release of game APIs
+                                        <br/>RBA LABS: release of game APIs
 
 
                                     </p>
@@ -166,7 +166,7 @@ export function Blockchain() {
                                     <p>
                                         Roburna Wallet: official launch
                                         <br/>Roburna reaches mainnet (to be confirmed)
-                                        <br/>Roburna Labs: surprise game launch
+                                        <br/>RBA LABS: surprise game launch
                                     </p>
                                     <h5 className='gradient-color'>COMPLETED</h5>
                                 </div>

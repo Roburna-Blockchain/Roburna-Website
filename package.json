@@ -29,6 +29,7 @@
     "multiselect-react-dropdown": "^2.0.25",
     "os-browserify": "^0.3.0",
     "photoswipe": "^5.2.8",
+    "postcss-normalize": "^10.0.1",
     "process": "^0.11.10",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
@@ -75,6 +76,8 @@
     "@types/lodash": "^4.14.182",
     "@types/react-helmet": "^6.1.5",
     "@types/react-select-country-list": "^2.2.0",
-    "@types/validator": "^13.7.5"
+    "@types/validator": "^13.7.5",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^8.3.0"
   }
 }

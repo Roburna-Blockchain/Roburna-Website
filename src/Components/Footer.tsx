@@ -75,7 +75,7 @@ function Footer() {
                         to="/labs"
                         className={({ isActive }) => `nav-item nav-link ${isActive ? 'item' : ''} mb-1 mb-lg-0`}
                     >
-                        ROBURNA LABS
+                        RBA LABS
                     </NavLink>
                     <NavLink
                         to="/blog"
@@ -159,7 +159,7 @@ function Footer() {
                     </form>
             </div>
             <div className='copyright'>
-                © 2022 All Right Reserved. Roburna is a registered trademark of Roburna Labs.
+                © 2022 All Right Reserved. Roburna is a registered trademark of RBA LABS.
                 <span>
                     <NavLink to='/terms-and-conditions' className='gradient-color'> Privacy & Terms</NavLink> |
                     <NavLink to='/disclaimer' className='gradient-color'> Cookie Preferences</NavLink>

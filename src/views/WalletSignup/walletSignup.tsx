@@ -80,7 +80,6 @@ export function WalletSignup() {
         const _errors = { ...(submitClicked ? mandatoryErrors : {}), ...validationErrors }
         return _errors
     }, [submitClicked, mandatoryErrors, validationErrors])
-
     const valid = useMemo(() => isEmpty(errors) && isEmpty(mandatoryErrors), [errors, mandatoryErrors])
     const onSubmit = async (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
         event.preventDefault()
@@ -194,7 +193,9 @@ export function WalletSignup() {
                                         <div className="col-lg-8">
                                             <div className="select-wrap">
                                                 <select
-                                                    className={`${!isEmpty(errors.country) ? 'validationError' : ""}`}
+                                                    className={`${!isEmpty(errors.country) ? 'validationError' : ""}
+                                                    ${listData.country ? "selected" : ""}
+                                                    `}
                                                     onChange={(e) => setListData({ ...listData, country: e.target.value })}
                                                     value={listData.country}
                                                 >
@@ -207,7 +208,8 @@ export function WalletSignup() {
                                             <div className="select-wrap">
                                                 <select
                                                     defaultValue={"Age"}
-                                                    className={`${!isEmpty(errors.age) ? 'validationError' : ""} `}
+                                                    className={`${!isEmpty(errors.age) ? 'validationError' : ""}
+                                                    ${listData.age ? "selected" : ""} `}
                                                     onChange={(e) => setListData({ ...listData, age: e.target.value })}
                                                     value={listData.age}>
                                                     <option hidden>Age</option>
@@ -221,10 +223,12 @@ export function WalletSignup() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="select-wrap">
+                                    <div className={`select-wrap`}>
                                         <select
                                             defaultValue={"Income range, compared to your country of residence (optional)"}
-                                            className={`${!isEmpty(errors.income_range) ? 'validationError' : ""} `}
+                                            className={`${!isEmpty(errors.income_range) ? 'validationError' : ""}${
+                                                listData.income_range ? "selected" : ""
+                                            } `}
                                             onChange={(e) => setListData({ ...listData, income_range: e.target.value })}
                                             value={listData.income_range}
                                         >

@@ -28,7 +28,7 @@ export function Bots() {
                         <div className="latest-blog-content px-5 py-5 h-100">
                         <img className='yellowleaf' src={yellowLeaf} />
                         {/* <img className='blogpost-banner-image' src={labsmobileinfopic2} /> */}
-                    <span className='mt-5 d-block'>Meet the Roburna Labs Buy Bot for Telegram</span>
+                    <span className='mt-5 d-block'>Meet the RBA LABS Buy Bot for Telegram</span>
                     <h2 className='px-5 my-5'>Telegram Bots </h2>
                     <p>Chatbots act as digital assistants to improve customer experience by streamlining interactions between people and services. At the same time, they give businesses fresh chances to optimize client engagement for effectiveness, which can lower traditional support expenses while also decreasing service friction.
                     </p>
@@ -42,7 +42,7 @@ export function Bots() {
             </section>
             
             <section id='projectdesc' className='blogpost-main-sec d-flex flex-column'>
-                <p>Roburna Labs Buy Bot for Telegram</p>
+                <p>RBA LABS Buy Bot for Telegram</p>
                 <h2>What can it do?</h2>
                 <p>Provide price, marketcap, volume of tokens, and more!</p>
                 <h2>Setup</h2>

@@ -50,7 +50,7 @@ function Header() {
               to="/labs" onClick={hideMenu}
               className={({ isActive }) => `nav-item nav-link ${isActive ? 'item' : ''} mb-1 mb-lg-0`}
             >
-              ROBURNA LABS
+              RBA LABS
             </NavLink>
             <NavLink
               to="/blog" onClick={hideMenu}

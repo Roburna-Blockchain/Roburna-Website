@@ -54,7 +54,7 @@
 .latest-blog-image{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .latest-blog-content{
@@ -108,7 +108,7 @@
     line-height: 40px;
 }
 .blog-page-sec{padding: 5%;}
-.blog-page-sec .home-blog-card img{width: 100%;height: 342px;object-fit: cover;border-radius: 10px;}
+.blog-page-sec .home-blog-card img{width: 100%;height: 342px;object-fit: fill;border-radius: 10px;}
 .blog-page-sec .home-blog-card {border-radius: 10px;height: 100%;    background: linear-gradient(136.41deg, #FFFFFF 39.98%, #DBDBDC 114.01%);
 }
 .blog-page-sec .home-blog-card .blog-card-bottom{align-items: center;}
@@ -216,7 +216,7 @@
     .latest-blog-image {
         width: 100%;
         height: 342px;
-        object-fit: cover;        
+        object-fit: contain;        
         border-radius: 10px;
     }
     .latest-blog-image-wrap{

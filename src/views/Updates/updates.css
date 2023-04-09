@@ -17,8 +17,13 @@
     box-shadow: 0px 19px 33px rgba(111, 109, 113, 0.13);
     border-radius: 13px;
 }
+
+.updates-latest-blog-image{
+    height: 605px !important;
+}
+
 .latesupdatecols{
-    height: 685px;
+    height: 100%;
 }
 .long-desc-text a{
     white-space: normal;
@@ -34,10 +39,14 @@
     padding-top: 7rem;
     padding-bottom: 7rem;
 }
+
 @media (max-width: 991px){
     .latest-updates-image-wrap {
         padding-left: 20px !important;
         padding-right: 20px !important;
+    }
+    .updates-latest-blog-image{
+        height: 300px !important;
     }
 
 }

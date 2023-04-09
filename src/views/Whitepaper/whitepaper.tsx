@@ -38,7 +38,7 @@ export function Whitepaper() {
 
                 <div className='banner-text-box-labs banner-text-box text-center d-flex flex-column align-items-center justify-content-center'>
                     <div className='alt-box'>
-                        <span>WHITEPAPER</span>
+                        {/* <span>WHITEPAPER</span> */}
                         <img src={grleaf} width='67px' />
                     </div>
                     <h2 className='px-md-5 mx-md-5 mt-md-3'>{WhitePaperbanner[0].title}</h2>

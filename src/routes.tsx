@@ -37,7 +37,6 @@ const Main = () => {
                 <Route path="/wallet-signup" element={<WalletSignup />} />
                 <Route path="/updates" element={<Updates />} />
                 <Route path="/temp" element={<Temp />} />
-
             </Routes >
     )
 }
